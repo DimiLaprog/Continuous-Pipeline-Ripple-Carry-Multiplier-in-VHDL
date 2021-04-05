@@ -24,4 +24,5 @@ Board Used: Zybo (xc7z010clg400-1) , Zynq-7000 product family.
 ![Critical Path](https://user-images.githubusercontent.com/56197365/113529254-ac818080-95cb-11eb-88b1-eefb0fb51afd.JPG)
 ![Utilization](https://user-images.githubusercontent.com/56197365/113529252-abe8ea00-95cb-11eb-8a6d-d5d39eef31ac.JPG)
 
-
+## Author:
+Dimitrios Lampros
