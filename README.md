@@ -3,16 +3,16 @@ Continuous Pipeline Ripple Carry Multiplier in VHDL using Vivado Xilinx :
 The multiplier was implemented in a structural way utilising a basic multiplying cell that includes a sequential full adder. After combining each cell to its corresponding line, the lines can then be connected properly to finally built a 4x4 Continuous-Pipeline-Ripple-Carry-Multiplier-in-VHDL. 
 For code: look into code file "MULTIPLICATION".
 #
-Board Used: Zybo (xc7z010clg400-1) , Zynq-7000 product family.
-
+- Board Used: Zybo (xc7z010clg400-1) , Zynq-7000 product family.
+- Xilinx Vivado 2018.2.1
 ## We present in the following order:
 1. Circuit Design using pipeline where red lines and dots indicate the positions of extra flip flops to be used in order to achieve pipeline.
 2. RTL produced by Vivado
 3. Behavioral Simulation
 > Note that pipeline produces correct results after 11 Clock Cycles and initial reg values are 0.
 
-4. Critical Path Delay
-5. Utilization table
+4. Critical Path Delay (synthesis)
+5. Utilization table (synthesis)
 
 
 ![Multiplier circuit](https://user-images.githubusercontent.com/56197365/113529257-ad1a1700-95cb-11eb-8fcf-243bbedce2eb.JPG)
